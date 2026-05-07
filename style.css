@@ -1,0 +1,17 @@
+.navigation ul {
+    list-style: none;
+    padding:0;
+    margin: 0;
+
+}
+
+.navigation ul li {
+    float:right;
+    padding: 14px 16px;
+}
+
+.navigation ul li a {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+}
