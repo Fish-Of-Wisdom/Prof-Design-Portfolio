@@ -254,3 +254,80 @@ h4 {
     border-radius: 8px;
     padding: 12px;
 }
+
+.emphasise {
+    font-style:oblique;
+    font-family:'Fredoka', sans-serif;
+    font-weight:600;
+    color:#e97777;
+}
+
+.features {
+    font-family: 'Fredoka', sans-serif;
+    font-size:large;
+    background-color: #d1e7eb;
+    border-radius: 8px;
+    padding: 32px 40%;
+}
+
+.padded {
+    padding: 16px;
+}
+
+.quote {
+    font-style: italic;
+    font-family: 'Fredoka', sans-serif;
+    font-size:large;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+}
+
+.quote:nth-child(1) {
+    background-color:#fee9ae
+}
+.quote:nth-child(2) {
+    background-color:#f0babb
+}
+.quote:nth-child(3) {
+    background-color:#cfd99e
+}
+/*skipped a number to account for included p class */
+.quote:nth-child(5) {
+    background-color:#d1e7eb
+}
+
+#impact {
+    font-family: 'Chiron GoRound TC', sans-serif;
+    font-size:xx-large;
+    color:#e97777
+}
+
+#big {
+    font-family:'Fredoka', sans-serif;
+    font-size:xx-large;
+    color:#e97777;
+    font-weight:600;
+}
+
+/* .summary {
+    display:flex;
+    flex-direction: row;
+} */
+
+.summary p:nth-child(2){
+    background-color: #ffe9ea;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+#logo {
+    width: 24px;
+    height: 24px;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
