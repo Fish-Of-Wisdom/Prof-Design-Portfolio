@@ -258,9 +258,65 @@ h4 {
 .emphasise {
     font-style:oblique;
     font-family:'Fredoka', sans-serif;
-    font-weight:600;
-    color:#e97777;
 }
+
+footer.contact {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    padding: 28px 28px 24px;
+    background-color:#fff7e3;
+    border: 1px solid rgba(173, 159, 126, 0.35);
+    border-radius: 22px;
+    box-shadow: 0 18px 36px rgba(37, 41, 45, 0.08);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer.contact .body-text {
+    margin: 0;
+    line-height: 1.7;
+    max-width: 46rem;
+}
+
+footer.contact a {
+    color: #e97777;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer.contact a:hover {
+    text-decoration: underline;
+}
+
+footer.contact .linkedin {
+    display: flex;
+    font-family:'Fredoka', sans-serif;
+    font-weight:200;
+    font-size:larger;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 14px;
+   
+}
+
+footer.contact .linkedin img {
+    width: 32px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
 
 .features {
     font-family: 'Fredoka', sans-serif;
@@ -335,7 +391,7 @@ h4 {
     gap: 16px;
     width: 100%;
     justify-items: center;
-    
+    padding-bottom:5%;
 }
 
 
@@ -352,6 +408,6 @@ footer {
     width:100%;
     display: block;
     padding-left:10%;
-    border-top: #f0ca60 solid 16px;
-    background-color: #fff7e0;
+    border: #f0ca60 dashed 4px;
+   
 }
