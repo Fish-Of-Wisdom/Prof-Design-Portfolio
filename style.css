@@ -15,3 +15,237 @@
     text-align:center;
     text-decoration:none;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+/* Keep the navigation full-width while centering the page content */
+.navigation {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body-text {
+    font-family: 'Fredoka', sans-serif;
+    font-size:large
+}
+
+/* General card styling */
+.cards {
+    display:grid;
+    grid-auto-flow: column;
+    font-family:'Fredoka', sans-serif;
+    gap:16px;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    padding-left: 12px;
+    padding-right:12px;
+}
+
+/*id cards for the different colors I need */
+#r1 {
+    background-color:#fee9ae;
+    border-radius: 8px
+}
+
+#r2 {
+    background-color:#efd079;
+    border-radius: 8px;
+}
+
+#r3 {
+    background-color:#f0ca60;
+    border-radius: 8px;
+}
+
+#t1 {
+    background-color:#cfd99e;
+    border-radius: 8px
+}
+
+#t2 {
+    background-color:#b7cb59;
+    border-radius: 8px
+}
+
+#p1 {
+    background-color:#d1e7eb;
+    border-radius: 8px
+}
+
+#p2 {
+    background-color:#a2dae6;
+    border-radius: 8px
+}
+
+#s1 {
+    background-color:#f0babb;
+    border-radius: 8px
+}
+
+#s2 {
+    background-color:#f0a1a1;
+    border-radius: 8px
+}
+
+/*bar styling*/
+
+#br1 {
+    background-color:#fee9ae;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+#br2 {
+    background-color:#f0babb;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+#br3 {
+    background-color:#cfd99e;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+#br4 {
+    background-color:#d1e7eb;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px; 
+}
+
+
+/*maybe change colors here if you have time */
+
+#bres1 {
+    background-color:#f0ca60;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+#bres2 {
+    background-color:#a2dae6;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+#bres3 {
+    background-color:#f0a1a1;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+.screensflow1,
+.screensflow2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 16px;
+    width: 100%;
+    justify-items: center;
+}
+
+.screensflow2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 16px;
+    width: 100%;
+    justify-items: center;
+}
+
+.screen {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.screen img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#rotate {
+    transform: rotate(270deg);
+    max-width: 60%;
+    height: auto;
+}
+
+#short {
+   
+    max-width:60%;
+}
+
+.proto_images {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+h2 {
+    font-family: 'Chiron GoRound TC', sans-serif;
+    font-size:xx-large;
+    padding-bottom:10px;
+    border-bottom:#a2dae6 solid 4px;
+}
+
+h3 {
+    font-family: 'Chiron GoRound TC', sans-serif;
+    font-size:x-large;
+    padding-bottom:10px;
+    border-bottom:#cfd99e solid 4px;
+
+}
+
+h1 {
+    font-family: 'Chiron GoRound TC', sans-serif;
+    font-size:xxx-large;
+    padding-bottom:10px;
+    border-bottom:#f0a1a1 solid 4px;
+}
+
+h4 {
+    font-family: 'Chiron GoRound TC', sans-serif;
+    font-size:large;
+    padding-bottom:10px;
+    border-bottom:#fee9ae solid 4px;
+}
+
+#care {
+    font-style: italic;
+    background-color:#cfd99e;
+    border-radius: 8px;
+    padding: 12px;}
+
+#ceremony {
+    font-style: italic;
+    background-color:#fee9ae;
+    border-radius: 8px;
+    padding: 12px;
+}
