@@ -437,3 +437,7 @@ footer {
     border: #f0ca60 dashed 4px;
    
 }
+
+.cards .proto {
+    padding-top:16px;
+}
