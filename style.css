@@ -1,6 +1,11 @@
 
 
-
+.navigation {
+    background-color: #fff7e3;
+    border: 1px solid rgba(173, 159, 126, 0.35);
+    border-radius: 22px;
+    box-shadow: 0 18px 36px rgba(37, 41, 45, 0.08);
+}
 .navigation ul {
     list-style: none;
     padding:0;
@@ -11,13 +16,23 @@
 .navigation ul li {
     float:right;
     padding: 14px 16px;
+   
 }
 
 .navigation ul li a {
     display:block;
     text-align:center;
     text-decoration:none;
+    color:black;
+    padding:2px;
     
+}
+
+.navigation ul li a:hover {
+    background-color:#f0a1a1;
+    color:white;
+    border-radius: 8px;
+    padding:2px;
 }
 
 body {
@@ -26,7 +41,8 @@ body {
     align-items: center;
     justify-content: flex-start;
     padding: 20px;
-    margin: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 /* Keep the navigation full-width while centering the page content */
