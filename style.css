@@ -343,7 +343,7 @@ h4 {
 .image-grid img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: auto; /* Firefox-friendly image scaling */
     object-fit: contain;
     object-position: center;
 }
