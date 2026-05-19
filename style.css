@@ -1,5 +1,24 @@
 
+#title {
+    font-family: 'Chiron GoRound TC', sans-serif;
+    font-size:3rem;
+    padding-bottom:10px;
+    
+}
 
+.header_img {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:16px;
+    padding-bottom:16px;
+}
+
+.header_img img {
+    max-width:40%;
+    height: auto;
+    border-radius: 20%;
+}
 .navigation {
     background-color: #fff7e3;
     border: 1px solid rgba(173, 159, 126, 0.35);
@@ -176,6 +195,40 @@ body {
 img {
     max-width: 80%;
     height: auto;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.image-grid .grid {
+    overflow: hidden;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    aspect-ratio: 4 / 3;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 12px;
+}
+
+.image-grid img.profile-pic {
+    object-position: top center;
 }
 
 .screensflow1,
@@ -422,14 +475,14 @@ footer.contact .linkedin img {
 }
 
 
-
+/* 
 .image-grid img {
     display: block;
     width: 100%;
     height: auto; /* Firefox-friendly image scaling */
     object-fit: contain;
     object-position: center;
-}
+} */
 
 footer {
     width:100%;
